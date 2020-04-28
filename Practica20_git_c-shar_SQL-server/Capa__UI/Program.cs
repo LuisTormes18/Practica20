@@ -17,7 +17,7 @@ namespace Capa__UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Clientes_UI());
+            Application.Run(new Inicio());
         }
     }
 }

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Capa_Logica.Empleados;
 using Capa_Logica.Clientes;
 using Capa__UI.Formularios.Empleados;
+using Capa__UI.Formularios.Clientes;
 namespace Capa__UI
 {
     public partial class Inicio : Form {
@@ -21,9 +22,35 @@ namespace Capa__UI
 
         private void button_Empleados_Click(object sender, EventArgs e)
         {
-            Form abrir = new Empleados_UI();
-            abrir.BringToFront();
-            abrir.Show();
+            formulario_hijo(new Empleados_UI());
+
+        }
+
+        Form formularioactivo = null;
+        private void formulario_hijo(Form hijo)
+        {
+            if (formularioactivo != null)
+            {
+                formularioactivo.Close();
+            }
+            formularioactivo = hijo;
+            hijo.TopLevel = false;
+            hijo.FormBorderStyle = FormBorderStyle.None;
+            hijo.Dock = DockStyle.Fill;
+            panel_contenedor.Controls.Add(hijo);
+            panel_contenedor.Tag = hijo;
+            hijo.BringToFront();
+            hijo.Show();
+        }
+
+        private void panel_contenedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button_Clientes_Click(object sender, EventArgs e)
+        {
+            formulario_hijo(new Clientes_UI());
         }
     }
 }
