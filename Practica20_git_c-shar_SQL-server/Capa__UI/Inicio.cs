@@ -52,5 +52,20 @@ namespace Capa__UI
         {
             formulario_hijo(new Clientes_UI());
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_Menu_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
