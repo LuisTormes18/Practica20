@@ -18,6 +18,7 @@ namespace Capa__UI
         public Inicio()
         {
             InitializeComponent();
+            panel_Menu.Size = new Size(200, 600);
         }
 
         private void button_Empleados_Click(object sender, EventArgs e)
@@ -65,7 +66,48 @@ namespace Capa__UI
 
         private void button_Menu_Click(object sender, EventArgs e)
         {
-            
+            if (panel_Menu.Size.Width == 200)
+            {
+                panel_Menu.Size = new Size(56,panel_Menu.Height);
+                panel_linea.Visible = true;
+            }
+            else if(panel_Menu.Size.Width == 56)
+            {
+                panel_linea.Visible = false;
+                panel_Menu.Size = new Size(200,panel_Menu.Height);
+
+            }
+        }
+
+        int posx = 0;
+        int posy = 0;
+        private void Barra_inicio_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(e.Button != MouseButtons.Left)
+            {
+                posx = e.X;
+                posy = e.Y;
+            }
+            else
+            {
+                Left = Left + (e.X - posx);
+                Top = Top + (e.Y - posy);
+            }
+        }
+
+        private void panel_logo_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left)
+            {
+                posx = e.X;
+                posy = e.Y;
+            }
+            else
+            {
+                Left = Left + (e.X - posx);
+                Top = Top + (e.Y - posy);
+            }
+
         }
     }
 }

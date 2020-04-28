@@ -39,6 +39,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button_menimizar = new System.Windows.Forms.Button();
             this.button_Menu = new System.Windows.Forms.Button();
+            this.panel_linea = new System.Windows.Forms.Panel();
             this.panel_Menu.SuspendLayout();
             this.Barra_inicio.SuspendLayout();
             this.panel_logo.SuspendLayout();
@@ -47,6 +48,7 @@
             // panel_Menu
             // 
             this.panel_Menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(34)))), ((int)(((byte)(39)))));
+            this.panel_Menu.Controls.Add(this.panel_linea);
             this.panel_Menu.Controls.Add(this.panel_logo);
             this.panel_Menu.Controls.Add(this.button_Clientes);
             this.panel_Menu.Controls.Add(this.button_Empleados);
@@ -83,6 +85,7 @@
             this.Barra_inicio.Name = "Barra_inicio";
             this.Barra_inicio.Size = new System.Drawing.Size(800, 52);
             this.Barra_inicio.TabIndex = 1;
+            this.Barra_inicio.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Barra_inicio_MouseMove);
             // 
             // flowLayoutPanel1
             // 
@@ -125,6 +128,7 @@
             this.panel_logo.Name = "panel_logo";
             this.panel_logo.Size = new System.Drawing.Size(200, 52);
             this.panel_logo.TabIndex = 4;
+            this.panel_logo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel_logo_MouseMove);
             // 
             // button1
             // 
@@ -159,10 +163,18 @@
             this.button_Menu.Image = ((System.Drawing.Image)(resources.GetObject("button_Menu.Image")));
             this.button_Menu.Location = new System.Drawing.Point(12, 5);
             this.button_Menu.Name = "button_Menu";
-            this.button_Menu.Size = new System.Drawing.Size(46, 37);
+            this.button_Menu.Size = new System.Drawing.Size(33, 37);
             this.button_Menu.TabIndex = 2;
             this.button_Menu.UseVisualStyleBackColor = true;
             this.button_Menu.Click += new System.EventHandler(this.button_Menu_Click);
+            // 
+            // panel_linea
+            // 
+            this.panel_linea.Location = new System.Drawing.Point(50, 52);
+            this.panel_linea.Name = "panel_linea";
+            this.panel_linea.Size = new System.Drawing.Size(8, 550);
+            this.panel_linea.TabIndex = 5;
+            this.panel_linea.Visible = false;
             // 
             // Inicio
             // 
@@ -195,6 +207,7 @@
         private System.Windows.Forms.Button button_menimizar;
         private System.Windows.Forms.Button button_Menu;
         public System.Windows.Forms.Panel panel_Menu;
+        private System.Windows.Forms.Panel panel_linea;
     }
 }
 
