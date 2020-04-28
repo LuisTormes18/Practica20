@@ -1,6 +1,6 @@
-﻿namespace Capa__UI.Formularios.Empleados
+﻿namespace Capa__UI.Formularios.Clientes
 {
-    partial class Empleados_UI
+    partial class Clientes_UI
     {
         /// <summary>
         /// Required designer variable.
@@ -34,28 +34,27 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToOrderColumns = true;
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(195, 120);
+            this.dataGridView1.Location = new System.Drawing.Point(203, 121);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.dataGridView1.Size = new System.Drawing.Size(677, 359);
+            this.dataGridView1.Size = new System.Drawing.Size(669, 372);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // Empleados_UI
+            // Clientes_UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(884, 562);
             this.Controls.Add(this.dataGridView1);
             this.MinimumSize = new System.Drawing.Size(900, 600);
-            this.Name = "Empleados_UI";
-            this.Text = "Empleados_UI";
-            this.Load += new System.EventHandler(this.Empleados_UI_Load);
+            this.Name = "Clientes_UI";
+            this.Text = "Clientes_UI";
+            this.Load += new System.EventHandler(this.Clientes_UI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

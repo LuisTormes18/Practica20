@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\Clientes\Clientes_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clientes\Clientes_UI.Designer.cs">
+      <DependentUpon>Clientes_UI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Empleados\Empleados_UI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Clientes\Clientes_UI.resx">
+      <DependentUpon>Clientes_UI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Empleados\Empleados_UI.resx">
       <DependentUpon>Empleados_UI.cs</DependentUpon>
     </EmbeddedResource>
