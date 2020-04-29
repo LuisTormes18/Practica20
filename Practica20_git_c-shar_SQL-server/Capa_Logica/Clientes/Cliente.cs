@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Capa_Logica.Clientes
 {
-    class Cliente
+    public class Cliente
     {
+        /*Atributos de los clientes*/
+        public string Nombre { get; set ; }
+        public string Apellido { get; set; }
+        public string Cedula { get; set; }
+        public int Edad { get; set; }
+        public char sexo { get; set; }
+        public string direccion{ get; set; }
     }
 }
