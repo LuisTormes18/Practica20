@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capa_Datos", "Capa_Datos", "{67C41A6A-FFEC-4ABB-AFCC-503AAE0D9C39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capa_Logica", "Capa_Logica", "{8316050B-68C1-4B90-B663-5C778AF3B92B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capa_UI", "Capa_UI", "{544A1309-498D-40C8-895F-BC1E58D7E732}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
