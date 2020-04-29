@@ -1,0 +1,6 @@
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Logica\bin\Debug\Capa_Logica.dll
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Logica\bin\Debug\Capa_Logica.pdb
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Logica\obj\Debug\Capa_Logica.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Logica\obj\Debug\Capa_Logica.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Logica\obj\Debug\Capa_Logica.dll
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Logica\obj\Debug\Capa_Logica.pdb

@@ -1,0 +1,5 @@
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_Datos\obj\Debug\Capa_Datos.pdb

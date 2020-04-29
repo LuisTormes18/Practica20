@@ -1,0 +1,8 @@
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_UI\bin\Debug\Capa_UI.exe.config
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_UI\bin\Debug\Capa_UI.exe
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_UI\bin\Debug\Capa_UI.pdb
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_UI\obj\Debug\Capa_UI.Properties.Resources.resources
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_UI\obj\Debug\Capa_UI.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_UI\obj\Debug\Capa_UI.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_UI\obj\Debug\Capa_UI.exe
+C:\Users\pc\source\repos\LuisTormes18\Practica20\Practica20_git_c-shar_SQL-server\Capa_UI\obj\Debug\Capa_UI.pdb
